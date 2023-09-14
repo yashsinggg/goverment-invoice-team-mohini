@@ -31,7 +31,7 @@ function InvoiceItem(props) {
         </thead>
         <tbody>{itemTable}</tbody>
       </Table>
-      <Button className="fw-bold" onClick={props.onRowAdd}>
+      <Button className="fw-bold text-black" onClick={props.onRowAdd}>
         Add Item
       </Button>
     </div>

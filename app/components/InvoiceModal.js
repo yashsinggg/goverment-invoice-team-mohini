@@ -134,13 +134,13 @@ function InvoiceModal(props) {
         <div className="pb-4 px-4">
           <Row>
             <Col md={6}>
-              <Button variant="primary" className="d-block w-100" onClick={GenerateInvoice}>
-                <BiPaperPlane style={{ width: '15px', height: '15px', marginTop: '-3px' }} className="me-2" />Send Invoice
+              <Button variant="primary" className="d-block w-100 text-black" onClick={GenerateInvoice}>
+                <BiPaperPlane style={{ width: '15px', height: '15px', marginTop: '-3px' }} className="me-2 text-black" />Send Invoice
               </Button>
             </Col>
             <Col md={6}>
-              <Button variant="outline-primary" className="d-block w-100 mt-3 mt-md-0" onClick={GenerateInvoice}>
-                <BiCloudDownload style={{ width: '16px', height: '16px', marginTop: '-3px' }} className="me-2" />
+              <Button variant="outline-primary" className="d-block w-100 mt-3 mt-md-0 text-black" onClick={GenerateInvoice}>
+                <BiCloudDownload style={{ width: '16px', height: '16px', marginTop: '-3px' }} className="me-2 text-black" />
                 Download Copy
               </Button>
             </Col>
